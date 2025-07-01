@@ -1,16 +1,51 @@
-# habit_tracker
+# 🧠 Habit Tracker App
 
-A new Flutter project.
+A simple and elegant Flutter app to help users track their daily habits and stay productive.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Add and edit habits with custom frequency (daily / weekly)
+- ✅ Track progress with a visual progress indicator
+- ✅ Store habits locally using Hive database
+- ✅ Responsive UI with ScreenUtil
+- ✅ Clean architecture using BLoC pattern
+- ✅ Custom theming with Google Fonts (Cairo)
+- ✅ Navigation with GoRouter
+- ✅ Arabic language support 🇪🇬
+- 📦 Ready for publishing on Google Play
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter**
+- **Dart**
+- **Hive** (Local storage)
+- **BLoC** (State Management)
+- **GoRouter** (Navigation)
+- **ScreenUtil** (Responsive UI)
+- **Google Fonts (Cairo)**
+- **Material 3**
+
+---
+
+## 📱 Getting Started
+
+```bash
+git clone https://github.com/ahmedabdelhaliem/habit_tracker.git
+cd habit_tracker
+flutter pub get
+flutter run
+## 📂 Project Structure
+lib/
+├── core/
+├── config/
+├── features/
+│   └── habits/
+│       ├── data/
+│       ├── presentation/
+│       │   ├── screen/
+│       │   └── widget/
+├── main.dart
